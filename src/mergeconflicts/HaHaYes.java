@@ -9,14 +9,15 @@ public class HaHaYes {
 
     private boolean yes = true;
     
-    public void getYes() {
+    public void HeyBobby() {
         if(yes) {
-	    System.out.println("Ha Ha Yes");
+	    System.out.println("I tell you whot,");
+	    System.out.println("I like this new fangled generation of music.");
         }
     }
 
     public static void main(String [ ] args) { 
     	HaHaYes test = new HaHaYes();
-    	test.getYes();
+    	test.HeyBobby();
     }
 }
