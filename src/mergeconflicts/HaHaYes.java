@@ -11,7 +11,7 @@ public class HaHaYes {
     
     public void getYes() {
         if(yes) {
-	    System.out.println("Ha Ha Yes");
+	    System.out.println("Ha Ha Yes, that is a good thingerino.");
         }
     }
 
