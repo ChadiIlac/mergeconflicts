@@ -19,10 +19,15 @@ public class PropaneSalesman {
     public void whatDoIDo() {
     	System.out.println("I sell propane and propane accessories.");
     }
+    
+    public void warning() {
+    	System.out.println("DO YOU HAVE A LICENSE FOR THAT PROPANE?");
+    }
 
     public static void main(String [ ] args) { 
     	PropaneSalesman test = new PropaneSalesman();
     	test.heyBobby();
     	test.whatDoIDo();
+    	test.warning();
     }
 }
