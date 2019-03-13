@@ -5,19 +5,24 @@ package mergeconflicts;
  *
  */
 
-public class HaHaYes {
+public class PropaneSalesman {
 
     private boolean yes = true;
     
-    public void HeyBobby() {
+    public void heyBobby() {
         if(yes) {
 	    System.out.println("I tell you whot,");
 	    System.out.println("I like this new fangled generation of music.");
         }
     }
+    
+    public void whatDoIDo() {
+    	System.out.println("I sell propane and propane accessories.");
+    }
 
     public static void main(String [ ] args) { 
-    	HaHaYes test = new HaHaYes();
-    	test.HeyBobby();
+    	PropaneSalesman test = new PropaneSalesman();
+    	test.heyBobby();
+    	test.whatDoIDo();
     }
 }
